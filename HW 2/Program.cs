@@ -29,7 +29,7 @@ Console.WriteLine("please enter your year");
 string yy = Console.ReadLine();
 Console.WriteLine(dd + "." + mm + "." + yy);
 Console.WriteLine(dd + "-" + mm + "-" + yy);
-Console.WriteLine(dd + "/" + mm + "/" + yy);
+Console.WriteLine(dd + @"\" + mm + @"\" + yy);
 Console.WriteLine("____________targil 6____________");
 string year = Console.ReadLine();
 int year2 = Convert.ToInt32 (year);
